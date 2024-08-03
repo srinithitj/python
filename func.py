@@ -1,0 +1,12 @@
+m={"name":"srinithi",
+   "age":19,
+   "city":"chennai"}
+m.pop('age')
+print(m)
+n={"class":"Btech"}
+m.update(n)
+print(m)
+a=m.copy()
+print(a)
+m.clear()
+print(m)
